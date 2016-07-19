@@ -11,7 +11,9 @@ class TutorialPageContainer extends React.Component {
     render() {
 
         return (
-            <TutorialDetailPage />
+            <TutorialDetailPage
+                progress={60}
+            />
         );
     }
 }

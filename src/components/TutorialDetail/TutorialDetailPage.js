@@ -1,12 +1,13 @@
 import React, {PropTypes} from 'react';
 
-const TutorialDetailPage = ({}) => {
-
+const TutorialDetailPage = ({progress}) => {
     return (
-        <h1>Padge</h1>
+        <h1>Page</h1>
     );
 };
 
-TutorialDetailPage.propTypes = {};
+TutorialDetailPage.propTypes = {
+    progress: PropTypes.number.isRequired
+};
 
 export default TutorialDetailPage;
