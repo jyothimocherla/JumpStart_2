@@ -3,7 +3,8 @@
     height: 50px;
     display: flex;
     flex-wrap: nowrap;
-    background: red;
+    background: white;
+    border: 1px solid black;
 }
 
 /* Logo Button */
@@ -29,4 +30,34 @@
     justify-content: center;
     margin-left: auto;
     order:2;
+}
+
+#header-support-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    order:2;
+    font-size: 10px;
+}
+
+
+#header-help-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    order:2;
+    font-size: 10px;
+}
+
+#header-checkout-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    order:2;
+    font-size: 10px;
 }

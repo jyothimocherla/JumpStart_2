@@ -33,10 +33,22 @@ class Header extends React.Component {
                     />
                 </div>
 
+                <div id="header-support-text">
+                    <span>24/7 Support (480) 260-8877</span>
+                </div>
+
+                <div id="header-help-text">
+                    <span>Help</span>
+                </div>
+
                 <Login
                     nameId="login-container"
                     onLogin={this.login}
                 />
+
+                <div id="header-checkout-text">
+                    <span>Checkout Now</span>
+                </div>
             </div>
         );
     }
