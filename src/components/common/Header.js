@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import LogoButton from './ImageButton';
 import Login from './Login';
 import '../../styles/Header.css';
+import {Link} from 'react-router';
 
 class Header extends React.Component {
     constructor(props, context) {
@@ -13,8 +14,9 @@ class Header extends React.Component {
         this.login = this.login.bind(this);
     }
 
-    redirectToHome() {
-        console.log('suhh');
+    redirectToHome(event) {
+        event.preventDefault();
+        this.context.router.push('/');
     }
 
     login(email, password) {
@@ -56,6 +58,10 @@ class Header extends React.Component {
 
 Header.propTypes = {
     //myProp: PropTypes.string.isRequired
+};
+
+Header.contextTypes = {
+    router: PropTypes.object.isRequired
 };
 
 function mapStateToProps(state, ownProps) {

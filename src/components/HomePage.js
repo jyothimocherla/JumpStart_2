@@ -43,7 +43,7 @@ const HomePage = () => {
         </div>
 
         <div className="homepage-video">
-            <img src={require('../../imgs/HomeVideo1.png')}/>
+            <Link to="email-marketing"><img src={require('../../imgs/HomeVideo1.png')}/></Link>
             <img src={require('../../imgs/HomeVideo2.png')}/>
         </div>
 

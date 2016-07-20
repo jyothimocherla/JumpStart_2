@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react';
 import ProgressBar from '../common/ProgressBarSection';
 import '../../styles/TutorialDetailPage.css';
+import {Link} from 'react-router';
 
 const TutorialDetailPage = () => {
     return (
@@ -60,7 +61,9 @@ const TutorialDetailPage = () => {
             <div id="detail-page-section2">
                 <span>How can GoDaddy help you with this?</span>
                 <div id="detail-page-section2-videos">
-                    <img src={require('../../../imgs/Screen1video4.png')} />
+                    <Link to="email-marketing/tutorials">
+                        <img src={require('../../../imgs/Screen1video4.png')} />
+                    </Link>
                     <img src={require('../../../imgs/screen1video5.png')} />
                 </div>
             </div>
