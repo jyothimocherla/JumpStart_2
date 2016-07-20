@@ -7,7 +7,7 @@ const WatchVideoPage = ({}) => {
     return (
         <div>
             <ProgressBar
-                text="suhh"
+                text="Hey Mark! You've have achieved a total of 23 credits. Learn more, unlock more!"
                 now={23}
             />
             <div id="page">

@@ -10,8 +10,8 @@ import WatchVideoPage from './components/WatchVideo/WatchVideoPageContainer';
 export default (
     <Route path="/" component={App}>
         <IndexRoute component={HomePage}/>
-        <Route path="tutorials/email-marketing" component={EmailMarketingPage}/>
-        <Route path="tutorials" component={WatchVideoPage}/>
+        <Route path="email-marketing" component={EmailMarketingPage}/>
+        <Route path="email-marketing/tutorials" component={WatchVideoPage}/>
         <Route path="*" component={NotFoundPage}/>
     </Route>
 );

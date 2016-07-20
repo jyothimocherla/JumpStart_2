@@ -14,6 +14,10 @@ const ProgressBarSection = ({text, now}) => {
                 now={now}
                 bsStyle="success"
             />
+
+            <div id="progress-bar-learn-more">
+                Learn more about Achievements
+            </div>
         </div>
     );
 };
