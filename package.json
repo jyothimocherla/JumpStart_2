@@ -29,6 +29,7 @@
   "author": "Francis yuen",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "3.3.6",
     "object-assign": "4.1.0",
     "react": "15.2.0",
     "react-bootstrap": "0.29.5",
