@@ -1,0 +1,102 @@
+#homepage-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#homepage-background-image {
+    width: 100%;
+    min-height: 467px;
+}
+
+#homepage-background-container {
+    min-height: 467px;
+}
+
+#homepage-background-text-container {
+    background: #34495e;
+    display: block;
+    color: white;
+    opacity: 0.92;
+    height: 300px;
+    position: relative;
+    width: 23%;
+    top: -300px;
+    left: 50px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+#homepage-background-text-container ul {
+    list-style-image: url('../../imgs/tick.png');
+    font-weight: bold;
+}
+
+#homepage-background-text-container ul li {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+#homepage-perks-container
+{
+    background: black;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -300px;
+}
+
+.homepage-perk-image {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage-perk
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+.homepage-video {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.homepage-video img {
+    width: 500px;
+    height: 351px;
+}
+
+#homepage-testimonials {
+    display: flex;
+    background: rgb(230, 240, 241);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+#homepage-team-image {
+    width: 102px;
+    height: 102px;
+}
+
+#homepage-testimonials-text {
+    width: 30%;
+    font-weight: bold;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
