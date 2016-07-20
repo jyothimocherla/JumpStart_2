@@ -28,6 +28,11 @@
     padding-left: 15px;
 }
 
+#detail-background-text-container ul {
+    list-style-image: url('../../imgs/tick.png');
+    font-weight: bold;
+}
+
 #detail-page-perks-container
 {
     background: black;

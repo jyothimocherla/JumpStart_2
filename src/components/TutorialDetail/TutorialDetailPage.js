@@ -10,9 +10,8 @@ const TutorialDetailPage = () => {
 
                 <div id="detail-background-text-container">
                     <h1>Get the email marketing expertise you need.</h1>
-                    <br />
+                    <br/>
                     <h2>Learn the easiest way to</h2>
-                    <br />
                     <ul>
                         <li>
                             Attract new customers
