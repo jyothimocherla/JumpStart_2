@@ -6,7 +6,7 @@ const TutorialDetailPage = () => {
     return (
         <div id="detail-page-container">
             <div id="detail-background-container">
-                <img src={require('../../../imgs/bkgd.jpg')} />
+                <img id="detail-background-image" src={require('../../../imgs/bkgd.jpg')} />
 
                 <div id="detail-background-text-container">
                     <h1>Get the email marketing expertise you need.</h1>

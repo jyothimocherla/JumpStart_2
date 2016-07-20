@@ -4,8 +4,9 @@
     width: 100%;
 }
 
-img {
+#detail-background-image {
     width: 100%;
+    min-height: 467px;
 }
 
 #detail-background-container {
