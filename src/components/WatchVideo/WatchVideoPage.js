@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 import '../../styles/WatchVideoPage.css';
 import ProgressBar from '../common/ProgressBarSection';
 
-const WatchVideoPage = ({}) => {
+const WatchVideoPage = ({openModal}) => {
 
     return (
         <div>
@@ -35,9 +35,12 @@ const WatchVideoPage = ({}) => {
                         className="watch-video-images"
                         src={require('../../../imgs/GDHelp.png')}
                     />
-                    <img
+
+                    <input
+                        type="image"
                         className="watch-video-images"
                         src={require('../../../imgs/shea.jpg')}
+                        onClick={openModal}
                     />
                 </div>
             </div>
@@ -51,6 +54,8 @@ const WatchVideoPage = ({}) => {
     );
 };
 
-WatchVideoPage.propTypes = {};
+WatchVideoPage.propTypes = {
+    openModal: PropTypes.func.isRequired
+};
 
 export default WatchVideoPage;

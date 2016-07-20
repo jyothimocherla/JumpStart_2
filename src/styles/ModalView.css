@@ -1,0 +1,104 @@
+.ModalClass {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.OverlayClass {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#modal-header-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#modal-header-text {
+    max-width: 1000px;
+    text-align: center;
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#modal-header-text h2 {
+    color: white;
+}
+
+#modal-actions {
+    display: flex;
+    justify-content: center;
+    order: 2;
+}
+
+.modal-actionItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#modal-actions img {
+    opacity: 1.0;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-actionbutton {
+    background: rgb(23, 165, 68);
+    color: white;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-action-description {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#modal-footer {
+    background: rgb(60, 60, 60);
+    color: white;
+    margin-top: 30px;
+    height: 170px;
+    order: 3;
+    padding-top: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#modal-keep-learning {
+    background: rgb(240, 195, 48);
+    color: black;
+    text-align: center;
+    padding: 5px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
