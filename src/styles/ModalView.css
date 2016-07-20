@@ -102,3 +102,11 @@
     margin-right: auto;
 }
 
+#modal-footer a,
+#modal-footer a:focus
+{
+    text-decoration: none;
+    color: black;
+}
+
+

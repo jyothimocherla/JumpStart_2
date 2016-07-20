@@ -1,5 +1,6 @@
 import React, {PropTypes} from 'react';
 import Modal from 'react-modal';
+import {Link} from 'react-router';
 import '../../styles/ModalView.css';
 
 const ModalView = ({isOpen, closeModal}) => {
@@ -44,9 +45,11 @@ const ModalView = ({isOpen, closeModal}) => {
 
                 <div id="modal-footer">
                     <span>Want to know how to Jumpstart your business further?</span>
-                    <div id="modal-keep-learning">
-                        Keep Learning!
-                    </div>
+                    <Link to="/">
+                        <div id="modal-keep-learning">
+                            Keep Learning!
+                        </div>
+                    </Link>
                 </div>
 
             </div>
