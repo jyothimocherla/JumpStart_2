@@ -15,13 +15,13 @@ const TutorialDetailPage = () => {
                     <br />
                     <ul>
                         <li>
-                            Attract new customers.
+                            Attract new customers
                         </li>
                         <li>
-                            Grow your mailing list.
+                            Grow your mailing list
                         </li>
                         <li>
-                            Attract new customers.
+                            Keep clients satisfied
                         </li>
                     </ul>
                 </div>
@@ -49,7 +49,29 @@ const TutorialDetailPage = () => {
                 text="Hey Mark! You've earned 15 credits so far. Learn more, unlock more!"
             />
 
+            <div id="detail-page-section1">
+                <span style={{color: 'green'}}>Earn 15 credits</span> with each additional tutorial completed!
+                <div id="detail-page-section1-videos">
+                    <img src={require('../../../imgs/screen2video1.png')} />
+                    <img src={require('../../../imgs/screen2video2.png')} />
+                    <img src={require('../../../imgs/Screen1video3.png')} />
+                </div>
+            </div>
 
+            <div id="detail-page-section2">
+                <span>How can GoDaddy help you with this?</span>
+                <div id="detail-page-section2-videos">
+                    <img src={require('../../../imgs/Screen1video4.png')} />
+                    <img src={require('../../../imgs/screen1video5.png')} />
+                </div>
+            </div>
+
+            <div id="detail-page-sell">
+                <span>Visit the GoDaddy Email Marketing page to learn more about the deals you can find!</span>
+                <div id="detail-page-calltoaction">
+                    Get GoDaddy Email Marketing
+                </div>
+            </div>
 
         </div>
     );
