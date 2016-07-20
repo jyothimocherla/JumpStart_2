@@ -23,20 +23,20 @@ const ModalView = ({isOpen, closeModal}) => {
                     <div className="modal-actionItem">
                         <img src={require('../../../imgs/telemarketer.png')} />
                         <div className="modal-actionbutton">
-                            Join Now for <strike>$6.99</strike> $5.99
+                            (408) 505-8877
                         </div>
                         <div className="modal-action-description">
-                            Jump start your business with GoDaddy's Email Marketing platorm!
+                            Contact our Award Winning customer care for further support
                         </div>
                     </div>
 
                     <div className="modal-actionItem">
                         <img src={require('../../../imgs/message_logo.png')} />
                         <div className="modal-actionbutton">
-                            (408) 505-8877
+                            Join Now for <strike>$6.99</strike> $5.99
                         </div>
                         <div className="modal-action-description">
-                            Contact our Award Winning customer care for further support
+                            Jump start your business with GoDaddy's Email Marketing platorm!
                         </div>
                     </div>
 
