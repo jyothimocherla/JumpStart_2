@@ -7,19 +7,19 @@ import delay from './delay';
 var emailMarketing = {
     seriesId: '1',
     name: 'Email Marketing',
-    image: ,
+    image: '',
     description: 'Create & send gorgeous, business-boosting emails in minutes'
 }
 var seo = {
     seriesId: '2',
     name: 'Search Engine Visibility',
-    image: ,
-    description: 'Promote Your Business on the World''s Top Search Engines.'
+    image: '',
+    description: 'Promote Your Business on the World\'s Top Search Engines.'
 }
 var websiteBuilder = {
     seriesId: '3',
     name: 'Website Builder',
-    image: ,
+    image: '',
     description: 'No skills? No time? - No problem.\n Build your professional website in a matter of minutes!'
 }
 
@@ -30,7 +30,7 @@ class CourseApi {
     static getAllProducts() {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                resolve(Object.assign({}, goDaddyProducts));
+                resolve(Object.assign([], goDaddyProducts));
             }, delay);
         });
     }

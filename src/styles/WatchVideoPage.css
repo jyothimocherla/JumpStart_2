@@ -1,0 +1,51 @@
+#page {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+#mainVideo {
+    position: relative;
+    left: 290px;
+}
+#images {
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.watch-video-images
+{
+    width:260px;
+    height:150px;
+    margin:5px;
+}
+
+#greyCircleForward {
+    position: absolute;
+    top: 400px;
+    left: 1255px;
+    height: 100px;
+    width: 100px;
+}
+#forward {
+    position: absolute;
+    top: 405px;
+    left: 1265px;
+    height: 90px;
+    width: 90px;
+
+}
+#greyCircleBack {
+    position: absolute;
+    top: 400px;
+    left: 280px;
+    height: 100px;
+    width: 100px;
+}
+#back {
+    position: absolute;
+    top: 405px;
+    left: 275px;
+    height: 90px;
+    width: 90px;
+}
